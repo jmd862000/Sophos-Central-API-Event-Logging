@@ -1,0 +1,17 @@
+{
+    "urls":{
+        "EndpointUrl":"https://api5.central.sophos.com/gateway/migration-tool/v1/endpoints",
+        "AlertUrl":"https://api5.central.sophos.com/gateway/siem/v1/alerts",
+        "EventUrl":"https://api5.central.sophos.com/gateway/siem/v1/events"
+    },
+    "headers":{
+        "Accept":"application/json",
+        "Content-Type":"application/json",
+        "x-api-key":"$apikey",
+        "Authorization":"$authorization",
+        "X-Timestamp":"$timestamp"
+
+    },
+    "connectionString": "Data Source=SQL_HOST;User ID=SQL_USER;Password=SQL_PASSWORD;Initial Catalog=SophosLogging"
+
+}
